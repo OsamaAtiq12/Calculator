@@ -1,0 +1,67 @@
+.main-input {
+  height: 80px !important;
+  font-size: 32px !important;
+  background-color: grey !important;
+  display: inline !important;
+  width: 100px !important;
+  color: white !important;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: grey !important;
+}
+
+.cal-design {
+  background-color: black;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+
+.btn-style {
+  height: 100px !important;
+  width: 100px !important;
+
+  background-image: linear-gradient(pink, blueviolet) !important;
+
+  font-size: 28px !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px !important;
+  align-items: center;
+}
+
+.btn-style:active {
+  box-shadow: 0 5px violet;
+  transform: translateY(4px);
+}
+
+.rowL {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.btn-style2 {
+  height: 80px !important;
+  width: 270px !important;
+
+  background-image: linear-gradient(pink, blueviolet) !important;
+
+  font-size: 28px !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
